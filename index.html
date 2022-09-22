@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <nav id="header">
+        <h1 id="title">Weather Dashboard</h1>
+    </nav>
+    
+    <div class="float-container">
+
+        <div class="float-child">
+          <div class="green">
+            <h2 id="search">Search for a City:</h2>
+            <input id="city">
+            <button id="button">Search</button>
+          </div>
+        </div>
+        
+        <div class="float-child">
+          <div class="blue">
+            <h2 class="cityName">
+                <!--Name and Date from API will generate here-->
+            </h2>
+            <ul>
+                <li>Temp: <!--Temp will be added here--></li>
+                <li><!--Temp will be added here--></li>
+                <li><!--Temp will be added here--></li>
+                <li><!--Temp will be added here--></li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+    <div class="searchHistory">
+
+    </div>
+    <script src="./Assets/script.js"></script>
+</body>
+</html>
